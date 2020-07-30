@@ -1,8 +1,15 @@
+import { Container, Row, Col } from "reactstrap";
+
 const Biography = () => {
     return (
-        <div>
-            <h1>This is Biography</h1>
-        </div>
+        <Container>
+            <Row>
+                <Col>.col</Col>
+                <Col>.col</Col>
+                <Col>.col</Col>
+                <Col>.col</Col>
+            </Row>
+        </Container>
     );
 };
 

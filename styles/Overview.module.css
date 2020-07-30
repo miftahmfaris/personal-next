@@ -1,0 +1,22 @@
+.displayCenter {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .displayCenter {
+        height: 50vh;
+        align-items: flex-start;
+    }
+}
+
+.imageWidth {
+    width: 200px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 100%;
+}
