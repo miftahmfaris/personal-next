@@ -1,9 +1,22 @@
+import App from "next/app";
+import { ThemeProvider } from "styled-components";
 import "../styles/globals.css";
 import "swiper/css/swiper.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+const theme = {
+    colors: {
+        primary: "#0070f3",
+    },
+};
+
+export default class MyApp extends App {
+    render() {
+        const { Component, pageProps } = this.props;
+        return (
+            <ThemeProvider theme={theme}>
+                <Component {...pageProps} />
+            </ThemeProvider>
+        );
+    }
 }
-
-export default MyApp;

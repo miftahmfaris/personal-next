@@ -5,9 +5,19 @@
     align-items: center;
 }
 
+.bold:hover {
+    border: 5px dotted skyblue;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
 @media (max-width: 500px) {
     .displayCenter {
         height: 50vh;
+    }
+
+    .flexStart {
+        padding: 20px 20px;
         align-items: flex-start;
     }
 }
@@ -19,4 +29,9 @@
 .image {
     border-radius: 50%;
     width: 100%;
+}
+
+.greeting {
+    background: maroon;
+    color: white;
 }
