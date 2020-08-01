@@ -4,7 +4,7 @@ import { Logo } from "../styled";
 
 const Overview = () => {
     return (
-        <Container>
+        <Container fluid={true}>
             <Row>
                 <Col xs={12} sm={6} className={styles.displayCenter}>
                     <div className={styles.imageWidth}>

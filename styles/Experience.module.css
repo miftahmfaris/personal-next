@@ -1,0 +1,34 @@
+.displayCenterLeft {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayCenterRight {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience {
+    background: black;
+    color: white;
+}
+
+.time {
+    font-size: 15px;
+    font-style: bold;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .displayCenterLeft {
+        height: 40vh;
+    }
+
+    .displayCenterRight {
+        height: 60vh;
+    }
+}
