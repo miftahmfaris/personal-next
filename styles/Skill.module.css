@@ -1,0 +1,28 @@
+.displayCenterLeft {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayCenterRight {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    background: cornflowerblue;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .displayCenterLeft {
+        height: 40vh;
+    }
+
+    .displayCenterRight {
+        height: 60vh;
+    }
+}
