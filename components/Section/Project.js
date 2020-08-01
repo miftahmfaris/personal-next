@@ -22,7 +22,9 @@ const Project = () => {
                                     Raibot
                                 </a>
                             </h4>
-                            <h5>Raibot is  </h5>
+                            <h5 className={styles.projectDescription}>
+                                Raibot is{" "}
+                            </h5>
                         </li>
                         <li>
                             <h4>
@@ -34,7 +36,7 @@ const Project = () => {
                                     Primatama Indonesia
                                 </a>
                             </h4>
-                            <h5>
+                            <h5 className={styles.projectDescription}>
                                 This is profile company website. Primatama
                                 Indonesia is futsal and basketball club for
                                 kids.
@@ -50,7 +52,7 @@ const Project = () => {
                                     MGFriends
                                 </a>
                             </h4>
-                            <h5>
+                            <h5 className={styles.projectDescription}>
                                 This website is loyalty program from mgholiday,
                                 so every member has point for every room booked.
                                 Member could redeem point and get reward based
@@ -67,7 +69,7 @@ const Project = () => {
                                     Foodbook
                                 </a>
                             </h4>
-                            <h5>
+                            <h5 className={styles.projectDescription}>
                                 This website is final team project from
                                 bootcamp. This website useful for sharing your
                                 favorite food to everyone.
@@ -75,7 +77,12 @@ const Project = () => {
                         </li>
                     </ul>
                 </Col>
-                <Col xs="12" md="6" lg="6" className={styles.displayCenterLeft}>
+                <Col
+                    xs="12"
+                    md="6"
+                    lg="6"
+                    className={styles.displayCenterRight}
+                >
                     <h1>Latest Project</h1>
                 </Col>
             </Row>
