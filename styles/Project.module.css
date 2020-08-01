@@ -1,0 +1,40 @@
+.displayCenterLeft {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayCenterRight {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    background: darkslategray;
+    color: white;
+}
+
+.link {
+    text-decoration: none !important;
+    color: white;
+}
+
+.link:hover {
+    border: 3px dotted white;
+    box-sizing: border-box;
+    padding: 2px;
+    color: skyblue;
+}
+
+@media (max-width: 500px) {
+    .displayCenterRight {
+        height: 40vh;
+    }
+
+    .displayCenterLeft {
+        height: 60vh;
+    }
+}

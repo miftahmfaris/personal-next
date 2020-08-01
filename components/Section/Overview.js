@@ -63,6 +63,14 @@ const Overview = () => {
                                     />
                                 </a>
                             </div>
+                            <div>
+                                <a href="mailto: miftahmfaris@yahoo.co.id">
+                                    <img
+                                        src="/images/logo_email.png"
+                                        alt="email"
+                                    />
+                                </a>
+                            </div>
                         </Logo>
                     </div>
                 </Col>

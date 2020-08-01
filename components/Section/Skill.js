@@ -22,6 +22,9 @@ const Skill = () => {
                             <h5>CSS3</h5>
                         </li>
                         <li>
+                            <h5>git</h5>
+                        </li>
+                        <li>
                             <h5>Javascript</h5>
                         </li>
                         <li>
@@ -35,6 +38,9 @@ const Skill = () => {
                         </li>
                         <li>
                             <h5>NodeJS</h5>
+                        </li>
+                        <li>
+                            <h5>ExpressJS</h5>
                         </li>
                         <li>
                             <h5>MongoDB-Mongoose</h5>
