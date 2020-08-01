@@ -19,10 +19,10 @@
 
 @media (max-width: 500px) {
     .displayCenterLeft {
-        height: 40vh;
+        height: 30vh;
     }
 
     .displayCenterRight {
-        height: 60vh;
+        height: 70vh;
     }
 }
