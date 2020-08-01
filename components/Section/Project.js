@@ -23,7 +23,7 @@ const Project = () => {
                                 </a>
                             </h4>
                             <h5 className={styles.projectDescription}>
-                                Raibot is{" "}
+                                Raibot is website for rent a trading robot.
                             </h5>
                         </li>
                         <li>
