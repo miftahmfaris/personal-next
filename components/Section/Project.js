@@ -4,7 +4,7 @@ import styles from "../../styles/Project.module.css";
 const Project = () => {
   const projects = [
     {
-      link: "https://m.happyfresh.co.id",
+      link: "https://m.happyfresh.id",
       title: "HappyFresh Mobile",
       description: "This website is mobile version of HappyFresh.",
     },
