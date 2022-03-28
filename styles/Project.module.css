@@ -1,44 +1,48 @@
 .displayCenterLeft {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .displayCenterRight {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayCenterRight h1 {
+  font-weight: bold;
 }
 
 .project {
-    background: darkslategray;
-    color: white;
+  background: darkslategray;
+  color: white;
 }
 
 .link {
-    text-decoration: none !important;
-    color: white;
+  text-decoration: none !important;
+  color: white;
 }
 
 .link:hover {
-    border: 3px dotted white;
-    box-sizing: border-box;
-    padding: 2px;
-    color: skyblue;
+  border: 3px dotted white;
+  box-sizing: border-box;
+  padding: 2px;
+  color: skyblue;
 }
 
 @media (max-width: 500px) {
-    .displayCenterRight {
-        height: 30vh;
-    }
+  .displayCenterRight {
+    height: 10vh;
+  }
 
-    .displayCenterLeft {
-        height: 70vh;
-    }
+  .displayCenterLeft {
+    height: 90vh;
+  }
 
-    .projectDescription {
-        font-size: 1rem;
-    }
+  .projectDescription {
+    font-size: 1rem;
+  }
 }

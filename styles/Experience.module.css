@@ -1,34 +1,65 @@
 .displayCenterLeft {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayCenterLeft h1 {
+  font-weight: bold;
 }
 
 .displayCenterRight {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayCenterRight ol {
+  margin: 0;
 }
 
 .experience {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 
 .time {
-    font-size: 15px;
-    font-style: bold;
-    display: block;
+  font-size: 15px;
+  font-style: bold;
+  display: block;
+}
+
+.jobList {
+  margin-bottom: 16px;
+}
+
+.jobList h2 {
+  font-weight: bold;
+}
+
+.jobDetail {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.jobDetail div {
+  width: 200px;
+  margin-right: 16px;
 }
 
 @media (max-width: 500px) {
-    .displayCenterLeft {
-        height: 40vh;
-    }
+  .displayCenterLeft {
+    height: 20vh;
+  }
 
-    .displayCenterRight {
-        height: 60vh;
-    }
+  .displayCenterRight {
+    height: 80vh;
+  }
+
+  .displayCenterRight ol h2 {
+    margin-bottom: 0;
+  }
 }

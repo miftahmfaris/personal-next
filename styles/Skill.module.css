@@ -1,28 +1,32 @@
 .displayCenterLeft {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayCenterLeft h1 {
+  font-weight: bold;
 }
 
 .displayCenterRight {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill {
-    background: cornflowerblue;
-    color: white;
+  background: cornflowerblue;
+  color: white;
 }
 
 @media (max-width: 500px) {
-    .displayCenterLeft {
-        height: 30vh;
-    }
+  .displayCenterLeft {
+    height: 30vh;
+  }
 
-    .displayCenterRight {
-        height: 70vh;
-    }
+  .displayCenterRight {
+    height: 70vh;
+  }
 }
